@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFDD0"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#ff0000"
+            android:text="Reset"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSuggestion" />
+
+        <TextView
+            android:id="@+id/tvSuggestion"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginBottom="261dp"
+            android:padding="10dp"
+            android:text="Meal Suggestion will appear here"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnReset"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bntSuggest" />
+
+        <Button
+            android:id="@+id/bntSuggest"
+            android:layout_width="237dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#4B75F2"
+            android:text="Get Meal Suggestion"
+            app:layout_constraintBottom_toTopOf="@+id/tvSuggestion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputTime" />
+
+        <EditText
+            android:id="@+id/inputTime"
+            android:layout_width="357dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="110dp"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter time of day"
+            app:layout_constraintBottom_toTopOf="@+id/bntSuggest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.727"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+
+
