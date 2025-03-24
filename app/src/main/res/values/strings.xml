@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">the.Rightbite</string>
+    <string name="reset" />
+    <string name="meal_suggestion_placeholder" />
+    <string name="get_meal_suggestion" />
+    <string name="enter_time_of_day" />
 </resources>
