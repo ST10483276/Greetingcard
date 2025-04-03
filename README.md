@@ -57,12 +57,6 @@ The design of the **The Right Bite** was based on the following key consideratio
 4. **Performance**:Code optimization was taken into account to guarantee quick reaction times and minimal battery use.
 ```
 
-Why:
-----
-- Highlights the thought process behind the design choices. It demonstrates that students are considering not just the functionality, but also the usability and performance aspects of the app, which is a professional approach.
-
----
-
 5. GitHub and GitHub Actions Utilization
 ----------------------------------------
 ```markdown
